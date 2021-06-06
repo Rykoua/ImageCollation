@@ -5,7 +5,7 @@
 [[arXiv(Todo)]()] [[Project website](http://imagine.enpc.fr/~shenx/ImageCollation/)]  
 
 <p align="center">
-<img src="https://github.com/Rykoua/ImageCollation/blob/master/img/teaser.jpg" width="800px" alt="teaser">
+<img src="https://github.com/Rykoua/ImageCollation/blob/main/img/teaser.JPG" width="800px" alt="teaser">
 </p>
 
 The project is an extension work to [ArtMiner](http://imagine.enpc.fr/~shenx/ArtMiner/) and [Historical Watermark Recognition](http://imagine.enpc.fr/~shenx/Watermark). If our project is helpful for your research, please consider citing : 
