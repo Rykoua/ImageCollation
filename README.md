@@ -46,19 +46,3 @@ bash requirement.sh
 ## Visualize Matches
 
 Given two manuscripts, and their respective illustrations extracted, [ManuscriptTools](https://github.com/Rykoua/ManuscriptTools) will generate a set of web pages. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
