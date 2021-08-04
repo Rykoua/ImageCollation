@@ -2,7 +2,7 @@
 
 (ICDAR 2021) Pytorch implementation of Paper "Image Collation: Matching illustrations in manuscripts"
 
-[[PDF](http://imagine.enpc.fr/~shenx/ImageCollation/ICDAR2021_ImageCollation_Paper.pdf) [[Project website](http://imagine.enpc.fr/~shenx/ImageCollation/)] [[1min Video] (https://youtu.be/yXe7JHSJDUs)] [[Slides](http://imagine.enpc.fr/~shenx/ImageCollation/ICDAR_ImageCollation_Slides.pdf)]  
+[[PDF](http://imagine.enpc.fr/~shenx/ImageCollation/ICDAR2021_ImageCollation_Paper.pdf) [[Project website](http://imagine.enpc.fr/~shenx/ImageCollation/)] [[1min Video](https://youtu.be/yXe7JHSJDUs)] [[Slides](http://imagine.enpc.fr/~shenx/ImageCollation/ICDAR_ImageCollation_Slides.pdf)]  
 
 <p align="center">
 <img src="https://github.com/Rykoua/ImageCollation/blob/main/img/teaser.JPG" width="800px" alt="teaser">
