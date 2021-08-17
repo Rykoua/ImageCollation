@@ -13,7 +13,7 @@ The project is an extension work to [ArtMiner](http://imagine.enpc.fr/~shenx/Art
 ```
 @inproceedings{kaoua2021imagecollation,
   title={Image Collation: Matching illustrations in manuscripts},
-  author={Kaoua, Ryad and Shen, Xi and Durr-Lazaris, Alexandra and Lazaris, Stavros and Picard, David and Aubry, Mathieu},
+  author={Kaoua, Ryad and Shen, Xi and Durr, Alexandra and Lazaris, Stavros and Picard, David and Aubry, Mathieu},
   booktitle={International Conference on Document Analysis and Recognition (ICDAR)},
   year={2021}
 }
