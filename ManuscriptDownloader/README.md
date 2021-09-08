@@ -5,11 +5,14 @@ This repository contains a script that will download the manuscripts' folios for
 
 ## Prerequisites
 
-To run the script, three additional packages are needed fitz, PyMuPDF and tqdm:
+To run the script, some additional packages are needed:
 ```
+pip install tqdm
+pip install Pillow
+pip install bs4
+pip install requests
 pip install fitz
 pip install PyMuPDF
-pip install tqdm
 ```
 
 ## Command Line
@@ -32,7 +35,7 @@ python main.py extract -p path -a annotation_path
 ```
 **args**
 - `-p, --path` directory where manuscripts are stored.
-- `-a, --annotation_path` directory where the JSON annotation files are stored.
+- `-a, --annotation_path` directory where the JSON annotation files are stored. If this parameter isn't set it will use the "annotations" folder, included in this directory. 
 
 
 ## Manuscripts

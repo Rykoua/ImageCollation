@@ -8,16 +8,16 @@ from os import listdir
 
 from tqdm import tqdm
 
-from IllustrationMatcher.utils.feature_matching import FeatureMatching
-from IllustrationMatcher.utils.fast_feature_matching import FastFeatureMatching
-from IllustrationMatcher.utils.models import get_conv4_model
+from .feature_matching import FeatureMatching
+from .fast_feature_matching import FastFeatureMatching
+from .models import get_conv4_model
 import torch
 
-from IllustrationMatcher.utils.ransac import Ransac
+from .ransac import Ransac
 import numpy as np
 
-from IllustrationMatcher.utils.score_matrix_func import normalize_score_matrix, propagate_matches, get_recall_performance
-from IllustrationMatcher.utils.get_ground_truth import load_json_as_list
+from .score_matrix_func import normalize_score_matrix, propagate_matches, get_recall_performance
+from .get_ground_truth import load_json_as_list
 
 import re
 

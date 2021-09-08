@@ -3,12 +3,12 @@ from torchvision import transforms
 import numpy as np
 from tqdm import tqdm
 
-from IllustrationMatcher.utils.models import get_conv4_model
+from .models import get_conv4_model
 from os.path import join, splitext, isfile
 from os import listdir
 from PIL import Image
 
-from IllustrationMatcher.utils.ransac import Ransac
+from .ransac import Ransac
 
 
 class FeatureMatching:

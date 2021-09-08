@@ -1,7 +1,7 @@
-from ManuscriptDownloader.utils.ManuscriptDownloader import ManuscriptDownloader
-from ManuscriptDownloader.utils.morgan_folio_downloader import download_themorgan_manuscript, download_file_url
-from ManuscriptDownloader.utils.extract_images_from_pdf import pdf_2_images
-from ManuscriptDownloader.utils.ExtractIllustrations import ExtractIllustrations
+from .ManuscriptDownloader import ManuscriptDownloader
+from .morgan_folio_downloader import download_themorgan_manuscript, download_file_url
+from .extract_images_from_pdf import pdf_2_images
+from .ExtractIllustrations import ExtractIllustrations
 from os.path import join
 from os import remove
 from PIL import Image

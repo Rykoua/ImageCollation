@@ -1,10 +1,10 @@
 import numpy as np
 import pathlib
 
-from ManuscriptTools.utils.TableHTML import TableHTML
-from ManuscriptTools.utils.score_matrix_func import get_best_matches_axis, get_consistent_matches, \
+from .TableHTML import TableHTML
+from .score_matrix_func import get_best_matches_axis, get_consistent_matches, \
     get_ordered_scores_matrix
-from ManuscriptTools.utils.DirTools import DirTools
+from .DirTools import DirTools
 import os
 from os.path import join
 

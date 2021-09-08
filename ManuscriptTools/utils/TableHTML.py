@@ -1,6 +1,6 @@
 from os.path import exists, join, isfile, splitext, relpath, dirname
 from os import listdir
-from ManuscriptTools.utils.DirTools import DirTools
+from .DirTools import DirTools
 import numpy as np
 
 
