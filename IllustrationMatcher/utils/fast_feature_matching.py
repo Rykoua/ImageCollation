@@ -8,7 +8,7 @@ from os.path import join, splitext, isfile
 from os import listdir
 from PIL import Image
 
-from IllustrationMatcher.utils.ransac import Ransac
+from .ransac import Ransac
 
 
 class FastFeatureMatching:

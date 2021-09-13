@@ -106,6 +106,7 @@ class IllustrationMatching:
 
         # if computing was already completed
         if propagation_matrix is not None:
+            print("Matrices have been already computed.")
             return score_matrix, normalized_matrix, propagation_matrix
 
         images1 = IllustrationMatching.get_images_list(self.folder1)

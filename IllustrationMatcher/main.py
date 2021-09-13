@@ -21,13 +21,7 @@ if __name__ == "__main__":
 
     # compute scores
     illustration_matching = IllustrationMatching(dir1_path, dir2_path, fast=True)
-    s1, s2 = illustration_matching.run(save_dir=args.results_dir)
-    score_matrix = s1 + s2
-
-    # normalize matrix
-    normalized_matrix = normalize_score_matrix(score_matrix)
-    print("Information propagation...")
-    matrix_after_propagation = propagate_matches(normalized_matrix, std=5, alpha=0.25)
+    score_matrix, normalized_matrix, propagation_matrix = illustration_matching.run(save_dir=args.results_dir)
 
     # measure performance
     if matches_json_file is not None:
@@ -37,5 +31,5 @@ if __name__ == "__main__":
         print("Normalized matrix recall: {:.1f}%".format(
             get_recall_performance(normalized_matrix, true_matches) * 100))
         print("Matrix info. propagation recall: {:.1f}%".format(
-            get_recall_performance(matrix_after_propagation, true_matches) * 100))
+            get_recall_performance(propagation_matrix, true_matches) * 100))
     exit()

@@ -11,13 +11,13 @@ More details about those three matrices can be found in the paper.
 ## Command Line
 
 ```
-python main.py --manuscript_1 m1_path --manuscript2 m2_path --results_folder results_folder_path
+python main.py --manuscript1 m1_path --manuscript2 m2_path --results_dir results_folder_path
 ```
 
 **args**
-- `-m1, --manuscript_1`: directory where the first manuscript is stored.
-- `-m2, --manuscript_2`: directory where the second manuscript is stored.
-- `-r, --results_folder`: directory in which the score matrices will be stored at the end of the execution of the algorithm.
+- `-m1, --manuscript1`: directory where the first manuscript is stored.
+- `-m2, --manuscript2`: directory where the second manuscript is stored.
+- `-r, --results_dir`: directory in which the score matrices will be stored at the end of the execution of the algorithm.
 - `-gt, --ground_truth`: json file containing the list of the true matches, this is an optional argument, if it is specified the algorithm will also return the performance of each score matrix.
 
 You can find for each of the 6 couples of manuscripts mentioned in the paper, the corresponding json file in the ground_truth folder at the root of the repository.

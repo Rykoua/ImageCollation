@@ -74,10 +74,6 @@ result_folder = "./P2P3_web_pages"
 nn_number = 10
 ```
 
-```
-python main.py -m1 "manuscripts_demo/P2/illustration" -m2 "manuscripts_demo/P3/illustration" -s score_matrix_npy_path -r result_dir_path -nn n_nearest_neighbor --with_annotation
-```
-
 The script will compute a simple cosine similarity score matrix, using the pretrained resnet50 conv4 features.
 It will then create all the set of pages and will save them in the result folder.
 
