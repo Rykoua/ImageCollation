@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/ManuscriptTools/P2P3_web_pages" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (ImageCollation)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (ImageCollation2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
